@@ -53,7 +53,7 @@ const Navbar = ({ setShowLogin,calculateTotalCartItems }) => {
       <div className="navbar-right">
         <img src={assets.search_icon} alt="" />
         <div className="navbar-search-icon">
-          <Link to="/cart">
+          <Link to="Delivery_App/cart">
             <img src={assets.basket_icon} alt="" />
           </Link>
           {calculateTotalCartItems()>0?<div className="dot">{calculateTotalCartItems()}</div>:""}
