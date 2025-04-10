@@ -54,7 +54,7 @@ const App = () => {
         <Navbar setShowLogin={setShowLogin} calculateTotalCartItems={calculateTotalCartItems}/>
         <Routes>
           <Route
-            path="/"
+            path="/Delivery_App/"
             element={
               <Home
                 cartItems={cartItems}
@@ -64,7 +64,7 @@ const App = () => {
             }
           />
           <Route
-            path="/cart"
+            path="Delivery_App//cart"
             element={
               <Cart
                 cartItems={cartItems}
@@ -75,7 +75,7 @@ const App = () => {
               />
             }
           />
-          <Route path="/order" element={<PlaceOrder calculateTotalCartItems={calculateTotalCartItems} totalPrice={totalPrice}/>} />
+          <Route path="Delivery_App//order" element={<PlaceOrder calculateTotalCartItems={calculateTotalCartItems} totalPrice={totalPrice}/>} />
         </Routes>
       </div>
       <Footer />

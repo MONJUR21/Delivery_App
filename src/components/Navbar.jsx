@@ -11,12 +11,12 @@ const Navbar = ({ setShowLogin,calculateTotalCartItems }) => {
 
   return (
     <div className="navbar">
-      <Link to="/">
+      <Link to="/Delivery_App/">
         <img src={assets.logo} alt="" className="logo" />
       </Link>
       <ul className="navbar-menu">
         <Link
-          to="/"
+          to="/Delivery_App/"
           onClick={(e) => handleMenuClick(e, "home")}
           className={menu === "home" ? "active" : ""}
         >
