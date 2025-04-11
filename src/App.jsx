@@ -75,7 +75,7 @@ const App = () => {
               />
             }
           />
-          <Route path="Delivery_App/order" element={<PlaceOrder calculateTotalCartItems={calculateTotalCartItems} totalPrice={totalPrice}/>} />
+          <Route path="/Delivery_App/order" element={<PlaceOrder calculateTotalCartItems={calculateTotalCartItems} totalPrice={totalPrice}/>} />
         </Routes>
       </div>
       <Footer />
