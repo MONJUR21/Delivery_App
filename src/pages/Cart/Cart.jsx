@@ -62,7 +62,7 @@ const Cart = ({ cartItems, removeFromCart,calculateTotalCartItems,calculateTotal
             </div>
           </div>
           <button onClick={()=>{
-            navigate("/order")
+            navigate("Delivery_App/order")
           }}>PROCEED TO CHECKOUT</button>
         </div>
         <div className="cart-promo-code">
